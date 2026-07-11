@@ -28,6 +28,8 @@
 Part of a broader analytics project series covering **Google, Facebook, Twitter, Railways,
 Airport, and AI tools**.
 
+**Author:** Harsh Sharma
+
 ## 📌 Project Overview
 
 This project analyzes:
@@ -150,4 +152,4 @@ available sources cited above.
 
 ---
 
-<p align="center">Built as part of an ongoing analytics project series.</p>
+<p align="center">Built by <b>Harsh Sharma</b> — part of an ongoing analytics project series.</p>
