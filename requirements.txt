@@ -1,0 +1,100 @@
+# Google Workspace Analysis (2026)
+
+A data analysis project exploring **Google Workspace** — product adoption, pricing,
+competitive market share, and growth trends — using public 2026 statistics.
+
+Part of a broader analytics project series covering Google, Facebook, Twitter, Railways,
+Airport, and AI tools.
+
+## 📊 Project Overview
+
+This project analyzes:
+- **Product usage** — Monthly Active Users (MAU) across Gmail, Drive, Docs, Sheets, Slides, Meet, Chat, and Gemini
+- **Pricing** — Business Starter / Standard / Plus / Enterprise tiers
+- **Market share** — Google Workspace vs Microsoft 365 vs other productivity suites
+- **Growth trends** — Workspace paying customers and Google Cloud revenue over recent quarters
+- **Company overview** — Alphabet/Google revenue, net income, and Cloud segment performance
+
+## 🗂️ Repository Structure
+
+```
+google-workspace-analytics/
+├── data/                      # Raw datasets (CSV)
+│   ├── workspace_usage.csv
+│   ├── pricing_plans.csv
+│   ├── market_share.csv
+│   ├── growth_trends.csv
+│   └── company_overview.csv
+├── scripts/
+│   └── visualize.py           # Generates all charts from the CSVs
+├── visuals/                   # Generated chart images (PNG)
+│   ├── workspace_mau_bar.png
+│   ├── pricing_comparison.png
+│   ├── market_share_pie.png
+│   ├── growth_trends.png
+│   └── dashboard.png
+├── notebooks/
+│   └── analysis.ipynb         # Exploratory analysis notebook (optional)
+├── requirements.txt
+└── README.md
+```
+
+## 🚀 Getting Started
+
+1. Clone the repo and install dependencies:
+   ```bash
+   git clone <your-repo-url>
+   cd google-workspace-analytics
+   pip install -r requirements.txt
+   ```
+
+2. Generate visualizations:
+   ```bash
+   python scripts/visualize.py
+   ```
+   Charts are written to the `visuals/` folder.
+
+3. (Optional) Open the notebook for an exploratory walkthrough:
+   ```bash
+   jupyter notebook notebooks/analysis.ipynb
+   ```
+
+## 📈 Sample Visualizations
+
+| Chart | Description |
+|---|---|
+| `workspace_mau_bar.png` | MAU by Workspace product |
+| `pricing_comparison.png` | Business tier pricing comparison |
+| `market_share_pie.png` | Productivity software market share |
+| `growth_trends.png` | Cloud revenue & paying customer growth |
+| `dashboard.png` | Combined 2x2 summary dashboard |
+
+## 🧾 Data Sources
+
+Figures are compiled from public 2026 disclosures and third-party statistics aggregators:
+- Alphabet quarterly earnings releases (Q4 2025, Q1 2026)
+- Google Workspace official pricing page (workspace.google.com/pricing)
+- SQ Magazine, AboutChromebooks, Bayelsa Watch — 2026 Workspace usage statistics
+- Vendr & PricePulse — 2026 pricing benchmarks
+
+**Note:** Market share and MAU figures vary across sources depending on methodology.
+Numbers here should be treated as directional estimates rather than precise figures —
+see notes columns in each CSV for caveats.
+
+## 🛠️ Tech Stack
+
+- Python 3
+- pandas — data handling
+- matplotlib / seaborn — visualization
+
+## 📌 Key Findings
+
+- Google Workspace serves **3B+ monthly users** with **11M+ paying customers**, up from 8M in early 2025
+- Gmail leads all products at **1.5B+ MAU**; Gemini AI crossed **750M MAU** after being bundled free into paid plans
+- Google Workspace holds an estimated **~50% share** of the productivity software market, narrowly ahead of Microsoft 365
+- Google Cloud revenue crossed **$20B in a single quarter for the first time** in Q1 2026, growing 63% YoY
+
+## 📄 License
+
+This project is for educational/portfolio purposes. Data is aggregated from publicly
+available sources cited above.

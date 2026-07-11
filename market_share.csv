@@ -1,0 +1,5 @@
+plan,price_usd_per_user_month,user_cap,pooled_storage_per_user,ai_included,key_features
+Business Starter,7.20,300,30 GB,Yes,"Custom email, basic security, Gemini AI included"
+Business Standard,14.40,300,2 TB,Yes,"Meeting recordings, Gemini AI included"
+Business Plus,26.40,300,5 TB,Yes,"Enhanced security & eDiscovery, Gemini AI included"
+Enterprise,,No cap,5 TB+ (expandable),Yes,"Advanced security/compliance, custom negotiated pricing, Gemini AI included"
